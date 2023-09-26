@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Assignment</title>
+    <style>
+        header {
+            text-align: center;
+        }
+
+        main {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SignUp</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <section>
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" minlength="3" required><br> <br>
+            </section>
+
+            <section>
+                <label for="lname">Last name:</label>
+            <input type="text"  name="lname" minlength="3" required> <br> <br>
+            </section>
+
+            <section>
+                <label for="Age">Age</label>
+                <input type="number" name="Age" min="0" max="150" required><br> <br>
+            </section>
+
+            <section>
+                <label for="email">Email</label>
+                <input type="email" name="email" minlength="3" required><br> <br>
+            </section>
+
+            <section>
+                <p>Gender<p>
+                <input type="radio" name="gender" required> 
+                <label for="male">Male</label><br>
+               
+                <input type="radio" name="gender" required>
+                <label for="female">Female</label><br>
+               
+            </section>
+
+            <section>
+                <label for="password">Password</label>
+                <input type="password" name="password" required> <br> <br>
+            </section>
+           
+            <section>
+                <input type="checkbox" name="condition"  required>
+                <label for="condition">Agree to terms and conditions</label> <br> <br>
+            </section>
+
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
